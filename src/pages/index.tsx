@@ -27,8 +27,8 @@ export default function Home() {
             >
               Veja nossos deliciosos lanches no
               {/* <span className="text-yellow-500"> */}
-              <span className="text-[black]">
-                <Link href={''} > Cardápio</Link>
+              <span className="text-[black] font-bold">
+                <Link href={'cardapio'} > Cardápio</Link>
               </span>
             </motion.p>
           </div>
