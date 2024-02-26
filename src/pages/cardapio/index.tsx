@@ -5,11 +5,11 @@ export default function Cardapio() {
         <section>
             <CardProduto 
                 key={0}
-                descricao="TEste"
-                imagem={''}
+                imagem={require('../../../public/lanche.jpg')}
                 descricaoImg="teste"
-                nome="Burger 1"
+                nome="Burger 2"
                 preco={35.90}
+                descricao="TEste"
             />
         </section>
     )

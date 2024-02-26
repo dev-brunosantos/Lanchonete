@@ -7,8 +7,8 @@ export const Menu = () => {
 
     return (
         <motion.header
-            className="cabecalho bg-transparent absolute z-[999]"
-            initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 1, delay: 0.5}}
+            className="cabecalho bg-transparent absolute z-[999] top-0"
+            initial={{opacity: 0}} animate={{opacity: 1}} transition={{duration: 0.5, delay: 0.5}}
         >
             <div className="h-[100%] centralizar">
                 <h1 className="text-[2rem] text-white">
